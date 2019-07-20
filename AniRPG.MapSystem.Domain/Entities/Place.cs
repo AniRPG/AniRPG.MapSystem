@@ -1,8 +1,6 @@
-﻿using AniRPG.MapSystem.Domain.Common;
-
-namespace AniRPG.MapSystem.Domain.Entities
+﻿namespace AniRPG.MapSystem.Domain.Entities
 {
-    public class Place : IEntity
+    public class Place
     {
         public int Id { get; set; }
         public string Name { get; set; }
