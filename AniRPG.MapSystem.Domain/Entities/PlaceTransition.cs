@@ -1,6 +1,8 @@
-﻿namespace AniRPG.MapSystem.Domain.Entities
+﻿using AniRPG.Core.Domain;
+
+namespace AniRPG.MapSystem.Domain.Entities
 {
-    public class PlaceTransition
+    public class PlaceTransition : IEntity
     {
         public int Id { get; set; }
         public string Message { get; set; }

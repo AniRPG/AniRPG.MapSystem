@@ -1,8 +1,9 @@
 ﻿using System.Collections.Generic;
+using AniRPG.Core.Domain;
 
 namespace AniRPG.MapSystem.Domain.Entities
 {
-    public class Location
+    public class Location : IEntity
     {
         public int Id { get; set; }
         public string Name { get; set; }
