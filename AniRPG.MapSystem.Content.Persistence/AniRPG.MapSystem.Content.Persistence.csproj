@@ -4,4 +4,13 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AniRPG.MapSystem.Content\AniRPG.MapSystem.Content.csproj" />
+    <ProjectReference Include="..\AniRPG.MapSystem.Domain\AniRPG.MapSystem.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
